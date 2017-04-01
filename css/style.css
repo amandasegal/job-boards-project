@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Dosis', sans-serif;
+}
+
+* {
+	font-family: 'Dosis', sans-serif;
+	color: #4D838F;
+}
+
+nav a {
+	text-decoration: none;
+	color: #4D838F;
+}
+
+a:link {
+	color: #4D838F;
+}
+
+a:visited {
+	color: #4D838F;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+
+/*Sansa Stark - #3A6D88,#4D838F,#BE9158,#A45A1B,#80341C,#3A6D88,#4D838F,#BE9158*/
+
+/* Jon Snow- #0E1F20,#102D2E,#747474,#9CC1C2,#4EACAE,#0E1F20,#102D2E,#747474;*/
+
+/**White Walkers - #78BCDC,#659DC8,#539BCE,#2A5D91,#1A3A62,#78BCDC,#659DC8,#539BCE/
