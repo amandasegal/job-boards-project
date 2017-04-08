@@ -24,6 +24,39 @@ a:hover {
 	font-weight: bold;
 }
 
+#wrapper {
+	margin:0;
+}
+
+#main {
+	position: relative;
+	width:100%;
+	height: auto;
+}
+
+/*
+#main {
+	background: no-repeat url(https://dl.dropboxusercontent.com/content_link/0olWF1OCD8VsS2WiBOGPq0KxNxJbSlfxNHRQ5f5r216kNzgw5goigZc2O4A7S9t2/file);
+	background-size: 100% 100%;
+	}
+
+#main img{
+	width: 100%;
+	opacity: 0;
+}
+
+#main:after {
+  content: ".";
+  display:block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+*/
+
+/*Image source: http://gameofthrones.wikia.com/wiki/Qarth*/
 
 /*Sansa Stark - #3A6D88,#4D838F,#BE9158,#A45A1B,#80341C,#3A6D88,#4D838F,#BE9158*/
 
