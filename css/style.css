@@ -24,6 +24,11 @@ a:hover {
 	font-weight: bold;
 }
 
+main {
+	background-image: url(../images/qarth.jpg);
+	height: 720px;
+	width: 1280px;
+}
 
 /*Sansa Stark - #3A6D88,#4D838F,#BE9158,#A45A1B,#80341C,#3A6D88,#4D838F,#BE9158*/
 
