@@ -26,8 +26,30 @@ a:hover {
 
 main {
 	background-image: url(../images/qarth.jpg);
-	height: 720px;
-	width: 1280px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 780px;
+	position: relative;
+}
+
+.inner h1, .inner h2 {
+	color: white;
+}
+
+h1 {
+	font-size:3.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.inner {
+	position: absolute;
+	left: 5%;
+	top: 6%;
+	line-height: 2em;
 }
 
 /*Sansa Stark - #3A6D88,#4D838F,#BE9158,#A45A1B,#80341C,#3A6D88,#4D838F,#BE9158*/
