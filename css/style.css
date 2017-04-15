@@ -24,6 +24,7 @@ a:hover {
 	font-weight: bold;
 }
 
+<<<<<<< HEAD
 #wrapper {
 	margin:0;
 }
@@ -58,6 +59,35 @@ a:hover {
 */
 
 /*Image source: http://gameofthrones.wikia.com/wiki/Qarth*/
+=======
+main {
+	background-image: url(../images/qarth.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 780px;
+	position: relative;
+}
+
+.inner h1, .inner h2 {
+	color: white;
+}
+
+h1 {
+	font-size:3.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.inner {
+	position: absolute;
+	left: 5%;
+	top: 6%;
+	line-height: 2em;
+}
+>>>>>>> b1e1f5555222906b936921b5b7e806e00ee58820
 
 /*Sansa Stark - #3A6D88,#4D838F,#BE9158,#A45A1B,#80341C,#3A6D88,#4D838F,#BE9158*/
 
