@@ -1,3 +1,8 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
 @font-face {
 	font-family: 'Dosis', sans-serif;
 }
@@ -31,14 +36,16 @@ main {
 	background-position: center;
 	height: 780px;
 	position: relative;
+	display: block;
 }
 
 .inner h1, .inner h2 {
 	color: white;
+	display: block;
 }
 
 h1 {
-	font-size:3.5em;
+	font-size:3.2em;
 }
 
 h2 {
@@ -51,6 +58,10 @@ h2 {
 	top: 6%;
 	line-height: 2em;
 }
+
+/*Responsive Layout*/
+
+
 
 /*Sansa Stark - #3A6D88,#4D838F,#BE9158,#A45A1B,#80341C,#3A6D88,#4D838F,#BE9158*/
 
