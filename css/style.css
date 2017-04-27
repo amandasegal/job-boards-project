@@ -12,9 +12,20 @@ html, body {
 	color: #4D838F;
 }
 
+.top-nav {
+	padding: 10px;
+}
+
 nav a {
 	text-decoration: none;
 	color: #4D838F;
+	margin-right: 10px;
+	font-size: 1.2em;
+
+}
+
+#logo img {
+	padding: 10px;
 }
 
 a:link {
@@ -29,6 +40,12 @@ a:hover {
 	font-weight: bold;
 }
 
+header nav {
+	float: right;
+}
+
+/* MAIN BACKGROUND IMAGE*/
+
 main {
 	background-image: url(../images/qarth.jpg);
 	background-repeat: no-repeat;
@@ -37,6 +54,7 @@ main {
 	height: 780px;
 	position: relative;
 	display: block;
+	margin-bottom: 0;
 }
 
 .inner h1, .inner h2 {
@@ -52,11 +70,78 @@ h2 {
 	font-size: 2em;
 }
 
+.intro {
+	color: #827291;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
 .inner {
 	position: absolute;
 	left: 5%;
 	top: 6%;
 	line-height: 2em;
+}
+
+/*PAGE NAVIGATION*/
+
+.pages-list li {
+	width: 20%;
+	float: left;
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+}
+
+.pages-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display:block;
+	clear:both;
+}
+
+.product-tab {
+	background-color: #d3d3d3;
+
+}
+
+.pricing-tab {
+	background-color: #a8a8a8;
+}
+
+.testimonials-tab {
+	background-color: #bdbdbd;
+}
+
+.about-tab {
+	background-color: #9d9d9d;
+}
+
+.careers-tab {
+	background-color: #d3d3d3;
+}
+
+section {
+	display: block;
+	margin: 150px 100px 75px;
+	font-size: 1.5em ;
+}
+
+#opening-credits {
+	margin-top: 0px;
+	width: auto;
+	}
+
+#opening-credits iframe {
+	display: block;
+	margin: 0 auto;
 }
 
 /*Responsive Layout*/
