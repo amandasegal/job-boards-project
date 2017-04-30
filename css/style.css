@@ -163,6 +163,7 @@ section {
 .social-media h3 {
 	display: block;
 	margin: 10px auto;
+	text-transform: uppercase;
 
 }
 
