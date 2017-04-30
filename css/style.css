@@ -196,6 +196,7 @@ footer {
 	margin: 150px 0px 0px;
 	padding: 25px 0px;
 	background-color: #e4e4e4;
+	clear: both;
 }
 
 
@@ -203,7 +204,7 @@ footer {
 
 .pricing-table {
 	margin: 0 auto;
-	width: auto;
+	width: 100%;
 }
 
 .exile-tier-features, .warlord-tier-features, .conqueror-tier-features {
@@ -237,6 +238,19 @@ footer {
 	font-weight: bold;
 }
 
+
+
+.col-1 , .col-2, .col-3 {
+	position: relative;
+	float: left;
+	width: 30%;
+}
+
+
+.col-1 {
+	margin-left:100px;
+
+}
 /*Responsive Layout*/
 
 
