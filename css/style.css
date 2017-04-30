@@ -1,3 +1,6 @@
+/*///////Universal Styling//////*/
+
+
 html, body {
 	margin: 0;
 	padding: 0;
@@ -24,6 +27,8 @@ nav a {
 
 }
 
+/*///////Navigation//////*/
+
 #logo img {
 	padding: 10px;
 }
@@ -44,7 +49,7 @@ header nav {
 	float: right;
 }
 
-/* MAIN BACKGROUND IMAGE*/
+/*///////Main background image//////*/
 
 main {
 	background-image: url(../images/qarth.jpg);
@@ -61,6 +66,8 @@ main {
 	color: white;
 	display: block;
 }
+
+/*///////Body of main pages//////*/
 
 h1 {
 	font-size:3.2em;
@@ -83,7 +90,7 @@ h2 {
 	line-height: 2em;
 }
 
-/*PAGE NAVIGATION*/
+/*///////Main Pages Navigation Bar//////*/
 
 .pages-list li {
 	width: 20%;
@@ -108,25 +115,27 @@ h2 {
 }
 
 .product-tab {
-	background-color: #d3d3d3;
+	background-color: #e4e4e4;
 
 }
 
 .pricing-tab {
-	background-color: #a8a8a8;
+	background-color: #dbdbdb;
 }
 
 .testimonials-tab {
-	background-color: #bdbdbd;
+	background-color: #d3d3d3;
 }
 
 .about-tab {
-	background-color: #9d9d9d;
+	background-color: #d7d7d7;
 }
 
 .careers-tab {
-	background-color: #d3d3d3;
+	background-color: #e0e0e0;
 }
+
+/*///////Main Product Page//////*/
 
 section {
 	display: block;
@@ -142,6 +151,50 @@ section {
 #opening-credits iframe {
 	display: block;
 	margin: 0 auto;
+}
+
+/*Footer*/
+
+.social-media {
+	width: 100%;
+	text-align: center;
+}
+
+.social-media h3 {
+	display: block;
+	margin: 10px auto;
+
+}
+
+.social-media ul {
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+
+}
+
+.social-media li {
+	list-style-type: none;
+	margin: 0;
+	float: left;
+
+}
+
+.social-media li a {
+	display: block;
+	padding: 10px;
+}
+
+.icon-credits {
+	margin: 30px auto;
+	text-align: center;
+	font-size: .75em;
+}
+
+footer {
+	margin: 150px 0px 0px;
+	padding: 25px 0px;
+	background-color: #e4e4e4;
 }
 
 /*Responsive Layout*/
