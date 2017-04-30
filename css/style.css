@@ -198,6 +198,45 @@ footer {
 	background-color: #e4e4e4;
 }
 
+
+/*///////Pricing Page//////*/
+
+.pricing-table {
+	margin: 0 auto;
+	width: auto;
+}
+
+.exile-tier-features, .warlord-tier-features, .conqueror-tier-features {
+	list-style-type: none;
+}
+
+.unavailable {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.tier-description a {
+	background-color: #4D838F;
+	padding: 9px 40px;
+	border-radius: 4px;
+
+}
+
+
+.tier-description a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.tier-description a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.tier-description a:hover {
+	font-weight: bold;
+}
+
 /*Responsive Layout*/
 
 
