@@ -190,10 +190,11 @@ section {
 	margin: 30px auto;
 	text-align: center;
 	font-size: .75em;
+	line-height: 50%;
 }
 
 footer {
-	margin: 150px 0px 0px;
+	margin: 100px 0px 0px;
 	padding: 25px 0px;
 	background-color: #e4e4e4;
 	clear: both;
@@ -203,12 +204,41 @@ footer {
 /*///////Pricing Page//////*/
 
 .pricing-table {
+	margin: 0;
+	clear:both;
+	display: block;
+} 
+
+.row {
+	width: 960px;
 	margin: 0 auto;
-	width: 100%;
+	display: block;
+	clear: both;
+	padding-top: 50px;
+}
+
+.row:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
+
+#exile-tier-title, #warlord-tier-title, #conqueror-tier-title {
+	
+	text-align: center;
+
+}
+
+#exile-tier-title h2, #warlord-tier-title h2, #conqueror-tier-title h2 {
+	color: #827291;
 }
 
 .exile-tier-features, .warlord-tier-features, .conqueror-tier-features {
 	list-style-type: none;
+
 }
 
 .unavailable {
@@ -216,13 +246,30 @@ footer {
 	opacity: 0.5;
 }
 
+.tier-description {
+	position: relative;
+	text-align: center;
+}
+
 .tier-description a {
 	background-color: #4D838F;
-	padding: 9px 40px;
+	padding: 10px 0;
 	border-radius: 4px;
+	display: block;
+	width: 75%;
+	margin: 0 auto;
+}
+
+
+.tier-description ul {
+	text-align: left;
 
 }
 
+.tier-description li {
+	margin: 20px auto;
+
+}
 
 .tier-description a:link {
 	color: #fff;
@@ -234,23 +281,16 @@ footer {
 	text-decoration: none;
 }
 
-.tier-description a:hover {
-	font-weight: bold;
-}
 
-
-
-.col-1 , .col-2, .col-3 {
-	position: relative;
+[class*="col-"] {
 	float: left;
-	width: 30%;
+	margin-left:2%;
+	width: 31.33%;
+	position: relative;
 }
 
 
-.col-1 {
-	margin-left:100px;
 
-}
 /*Responsive Layout*/
 
 
