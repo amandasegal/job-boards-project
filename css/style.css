@@ -115,7 +115,7 @@ h2 {
 }
 
 .product-tab {
-	background-color: #e4e4e4;
+	background-color: #d3d3d3;
 
 }
 
@@ -124,7 +124,7 @@ h2 {
 }
 
 .testimonials-tab {
-	background-color: #d3d3d3;
+	background-color: #e4e4e4;
 }
 
 .about-tab {
@@ -203,18 +203,19 @@ footer {
 
 /*///////Pricing Page//////*/
 
-.pricing-table {
+.pricing-table, .testimonials {
 	margin: 0;
 	clear:both;
 	display: block;
 } 
 
 .row {
-	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 	display: block;
 	clear: both;
 	padding-top: 50px;
+
 }
 
 .row:after {
@@ -289,9 +290,55 @@ footer {
 	position: relative;
 }
 
+/*///////Testimonials//////*/
 
+.photo-left {
+	float:left;
+	width: 31%;
+	margin: 0;
+ 	padding-left:2%;
+ 	position: relative;
+}
+
+.photo-right {
+	float:right;
+	width: 31%;
+	margin: 0;
+	position: relative;
+}
+
+.photo-right img {
+	padding-left:3%;
+	position: relative;
+}
+
+.story-left {
+	float: left;
+	width: 64%;
+	padding-left:2%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.story-right {
+	float: left;
+	width: 64%;
+	margin:0 auto;
+	position: relative;
+}
+
+.photo-left h4, .photo-right h4, .story-left h4, .story-right h4 {
+ 	color: #827291;
+ 	font-size: 1.5em;
+ }
+
+ .row img {
+ 	border-radius: 15px;
+ 	margin: 0 auto;
+ }
 
 /*Responsive Layout*/
+
 
 
 
