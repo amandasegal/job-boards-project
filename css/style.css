@@ -508,7 +508,7 @@ figcaption {
 	}
 
 	section p, .intro {
-		font-size: .70em;
+		font-size: 1em;
 	}
 
 		#opening-credits {
@@ -526,7 +526,7 @@ figcaption {
 	}
 
 	section p, .intro {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 
 	#opening-credits {
