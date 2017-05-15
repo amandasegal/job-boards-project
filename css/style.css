@@ -426,6 +426,11 @@ figcaption {
 	section p, .intro {
 		font-size: .70em;
 	}
+
+		#opening-credits {
+		display: none;
+	}
+
 }
 
 @media (max-width:580px) {
