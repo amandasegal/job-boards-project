@@ -8,49 +8,83 @@
 	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400" rel="stylesheet">
 	<script src="css/modernizr-custom.js"></script>
 </head>
-<body>	
+<body>
 	<header>
-		<nav>
+		<nav class="top-nav">
 			<a href="index.html">Home</a>
-			<a href="Sign In">Sign In</a>
+			<a href="contact.html">Contact</a>
 		</nav>
 		<div id="logo">
 			<img src="images/dragon.png">
 		</div>
 	</header>
 	<main> <!-- main will have background image -->
-		<div id=="contact-us">
-			<h1>
-			<strong>Targaryen Dragon Trainers</strong>
-			</h1>
-			<h2>Have questions or want more information? Fill out this form and one of our Unsullied will be in touch with you shortly.</h2>
+		<div class="inner">
+			<h1>Contact Us</h1>
+			<h2>Please fill out this form and one of our unsullied will be in touch with your shortly.</h2>
 		</div>
 	</main>
-	<form action="#" method="post">
-		<label for="first-name">First Name</label>
-		<input type="text" name="first-name" placeholder="First Name" required>
-		<br>
-		<label for="last-name">Last Name</label>
-		<input type="text" name="last-name" placeholder="Last Name" required>
-		<br>
-		<label for="phone">Phone</label>
-		<input type="tel" name="phone" placeholder="Phone" required>
-		<br>
-		<label for="email">Email</label>
-		<input type="text" name="email" placeholder="Email" required>
-		<br>
-		<label for="message">Message</label>
-		<textarea name="message" id="message" rows="8" cols=80></textarea>
-		<br>
-		<input type="submit" name="submit" value="Send">
+	<nav class="pages"> 
+		<ul class="cleafix pages-list">
+			<li class="testimonials-tab">
+				<a href="testimonials.html">Testimonials</a>
+			</li>
+			<li class="pricing-tab">
+				<a href="pricing.html">Pricing</a>
+			</li>
+			<li class="product-tab">
+				<a href="index.html">Product</a>
+			</li>
+			<li class="about-tab">
+				<a href="about.html">About Us</a>
+			</li>
+			<li class="careers-tab">
+				<a href="careers.html">Careers</a>
+			</li>
+		</ul>
+	</nav>
+	
+	<form class="form-style">
+		<ul>
+			<li>
+			    <input type="text" name="field1" class="field-style field-split align-left" placeholder="Name" />
+			    <input type="email" name="field2" class="field-style field-split align-right" placeholder="Email" />
+			</li>
+			<li>
+			    <input type="text" name="field3" class="field-style field-split align-left" placeholder="Phone" />
+			    <input type="url" name="field4" class="field-style field-split align-right" placeholder="Website" />
+			</li>
+			<li>
+			<input type="text" name="field3" class="field-style field-full align-none" placeholder="Subject" />
+			</li>
+			<li>
+			<textarea name="field5" class="field-style" placeholder="Message"></textarea>
+			</li>
+			<li>
+			<input type="submit" value="Send Message" />
+			</li>
+		</ul>
+	</form>
 	<footer>
-		<div class="social-media">
+	<div class="social-media">
+			<h3>Find us on social media</h3>
 			<ul>
-				<li>Facebook</li>
-				<li>Instagram</li>
+				<li>
+					<a href="https://www.facebook.com"><img src="images/002-facebook-logo-button.png" alt="facebook"></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com"><img src="images/001-instagram-logo.png" alt="instagram"></a>
+				</li>
+				<li>
+					<a href="https://www.twitter.com"><img src="images/003-social-media.png" alt="twitter"></a>
+				</li>
 			</ul>
 		</div>
+		<div class="icon-credits">
 			<h4>&copy All Rights Reserved 2017</h4>
+			<p>Logo icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+			<p>Nav icons made by <a href="http://www.flaticon.com/authors/bogdan-rosu" title="Bogdan Rosu">Bogdan Rosu</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+		</div>
 	</footer>
 </body>
 <html>
