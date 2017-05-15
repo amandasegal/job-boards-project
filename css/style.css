@@ -353,7 +353,7 @@ figcaption {
 
 @media (max-width:1100px)  {
 
-	#team .col-1 {
+	#team .col-1, .photo-left, .story-right, .photo-right, .story-left {
 	display: block;
 	clear: both;
 	padding-bottom: 5%;
@@ -361,13 +361,22 @@ figcaption {
 	width: 100%;
 }
 
-#team .row {
+.photo-left {
+ 	padding-left:0;
+}
+
+.photo-right img {
+	padding-left:0;
+}
+
+#team .row, .testimonials .row {
 	max-width: 460px;
 }
 
 #team .col-1 .bio {
 	width: 100%;
 }
+
 
 }
 
@@ -436,7 +445,7 @@ figcaption {
 @media (max-width:580px) {
 
 	.pages-list li {
-		font-size:.8em;
+		font-size:.7em;
 		line-height: 40px;
 		height: 40px;
 	}
@@ -455,6 +464,16 @@ figcaption {
 
 	h2 {
 		font-size: 1.5em;
+	}
+
+}
+
+@media (max-width:480px) {
+
+	.pages-list li {
+		font-size:.5em;
+		line-height: 30px;
+		height: 30px;
 	}
 
 }
