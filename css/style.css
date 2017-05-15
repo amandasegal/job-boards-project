@@ -451,7 +451,7 @@ figcaption {
 	}
 
 	section p, .intro {
-		font-size: .9em;
+		font-size: 1em;
 	}
 
 	#opening-credits {
@@ -466,15 +466,36 @@ figcaption {
 		font-size: 1.5em;
 	}
 
+
 }
 
 @media (max-width:480px) {
 
 	.pages-list li {
-		font-size:.5em;
-		line-height: 30px;
-		height: 30px;
-	}
+		font-size:.8em;
+		line-height: 40px;
+		height: 40px;
+		float: none;
+		display: block;
+		width: 100%;
+		}
+
+.pricing-table, .testimonials, div#team {
+	margin: 4%;
+	clear:both;
+	display: block;
+} 
+
+section {
+	display: block;
+	margin: 5%;
+	font-size: 1em ;
+}
+
+footer {
+	margin: 50px 0px 0px;
+}
+
 
 }
 
