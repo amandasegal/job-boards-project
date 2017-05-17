@@ -4,6 +4,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	min-height: 100%;
 }
 
 @font-face {
@@ -200,6 +201,10 @@ footer {
 	clear: both;
 }
 
+#bio-footer {
+	background-color: #e4e4e4;
+	clear: both;
+}
 
 /*///////Pricing Page//////*/
 
@@ -424,6 +429,44 @@ figcaption {
     text-decoration: none;
 }
 
+ /*//////Project Bio Page//////*/
+
+ #bio {
+ 	max-width: 960px;
+ 	margin: 0 auto;
+ 	clear:both;
+ 	padding-top: 100px;
+ }
+
+ #project-bio p:not(:first-child) {
+ 	font-size:1.1em;
+ }
+
+#project-bio {
+	clear:both;
+	position: relative;
+	padding-top:40px;
+}
+
+#bio-footer {
+	margin:100px 0 0;
+	clear:both;
+	width:100%;
+}
+
+  #portrait, #info {
+ 	float: left;
+ }
+
+ #portrait img {
+ 	border-radius: 150px;
+ 	box-shadow: 5px 5px 20px #7e7e7e;
+ }
+
+ #info {
+ 	margin-left:40px;
+ }
+
 /*Responsive Layout*/
 
 @media (max-width:1100px)  {
@@ -452,8 +495,8 @@ figcaption {
 	width: 100%;
 }
 
-
 }
+
 
 @media (max-width:750px)  {
 
@@ -497,6 +540,13 @@ figcaption {
 	.pages-list li {
 		font-size:1.2em;
 	}
+
+		#bio {
+	margin: 4%;
+	clear:both;
+	display: block;
+} 
+
 }
 
 @media (max-width:730px) {
@@ -514,6 +564,7 @@ figcaption {
 		#opening-credits {
 		display: none;
 	}
+
 
 }
 
@@ -541,7 +592,6 @@ figcaption {
 		font-size: 1.5em;
 	}
 
-
 }
 
 @media (max-width:480px) {
@@ -555,11 +605,12 @@ figcaption {
 		width: 100%;
 		}
 
-.pricing-table, .testimonials, div#team {
+.pricing-table, .testimonials, div#team, #bio {
 	margin: 4%;
 	clear:both;
 	display: block;
 } 
+
 
 section {
 	display: block;
