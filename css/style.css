@@ -467,6 +467,10 @@ figcaption {
  	margin-left:40px;
  }
 
+ #project-bio a {
+ 	color:#827291;
+ }
+
 /*Responsive Layout*/
 
 @media (max-width:1100px)  {
